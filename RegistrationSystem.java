@@ -15,7 +15,7 @@
 	   public static void checkValidFirstName(String firstName) {
 			
 			boolean isFirstName;
-			String firstNameRegex = "^[A-Z]{1}[a-z]{2,}$";
+			String firstNameRegex = "^[A-Z]{1}[a-z]{3,}$";
 			Pattern pattern = Pattern.compile(firstNameRegex);
 			
 			if (firstName == null) {
